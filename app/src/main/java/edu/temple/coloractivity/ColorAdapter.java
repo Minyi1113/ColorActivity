@@ -1,16 +1,11 @@
 package edu.temple.coloractivity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.graphics.Color;
-import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-
-import java.io.ObjectInputStream;
 import java.util.ArrayList;
 
 public class ColorAdapter extends BaseAdapter {
@@ -35,9 +30,7 @@ public class ColorAdapter extends BaseAdapter {
         colors[8] = Color.CYAN;
         colors[9] = Color.DKGRAY;
         colors[10] = Color.MAGENTA;
-
     }
-
 
     @Override
     public int getCount() {
