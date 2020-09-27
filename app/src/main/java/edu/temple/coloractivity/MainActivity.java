@@ -1,22 +1,16 @@
 package edu.temple.coloractivity;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
-
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
-import android.widget.EditText;
 import android.widget.Spinner;
-import android.widget.TextView;
-
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView titleTextView;
     Spinner spinner;
     View layout;
 
@@ -76,16 +70,12 @@ public class MainActivity extends AppCompatActivity {
                 }else if (spinner.getSelectedItem().toString().equals("MAGENTA")) { // where chosenColor is a string
                     layout.setBackgroundColor(Color.MAGENTA);
                 }
-
             }
-
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
 
             }
         });
-
     }
-
 }
