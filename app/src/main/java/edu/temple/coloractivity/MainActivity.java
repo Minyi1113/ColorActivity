@@ -23,8 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         spinner = findViewById(R.id.spinner);
         layout = findViewById(R.id.layout_id);
-
-
+        
         items = new ArrayList<>();
 
         items.add("Selecte Color");
